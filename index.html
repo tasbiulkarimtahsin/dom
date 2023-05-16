@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- cdn -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/2d5787ea84.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container root-container">
+        <div class="cards-conatiner">
+            <img src="images/triangle.png" alt="">
+            <div class="text-container">
+                <h1>Triangle</h1>
+                <p>Area(A) = 0.5 * b * h</p>
+                <div class="cal-style">
+                    <input type="text" id="valueOneTri"><br>
+                    <input type="text" id="valueTwoTri"><br>
+                </div>
+                <button class="btn-style" type="submit" onclick="areaFunctionTri()">Submit</button>
+            </div>
+        </div>
+
+        <div class="cards-conatiner">
+            <img src="images/rectangle.png" alt="">
+            <div class="text-container">
+                <h1>Rectangle</h1>
+                <p>Area(A) = w * l</p>
+                <div class="cal-style">
+                    <input type="text" id="valueOneRec"><br>
+                    <input type="text" id="valueTwoRec"><br>
+                </div>
+                <button class="btn-style" type="submit" onclick="areaFunctionRec()">Submit</button>
+            </div>
+        </div>
+
+        <div class="cards-conatiner">
+            <img src="images/parallelogram.png" alt="">
+            <div class="text-container">
+                <h1>Parallelogram</h1>
+                <p>Area(A) = b * h</p>
+                <div class="cal-style">
+                    <input type="text" id="valueOnePar"><br>
+                    <input type="text" id="valueTwoPar"><br>
+                </div>
+                <button class="btn-style" type="submit" onclick="areaFunctionPar()">Submit</button>
+            </div>
+        </div>
+
+        <div class="cards-conatiner">
+            <div class="text-container">
+                <h1>Area Calculation</h1>
+                <ul id="ansList"></ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="rowTwo-container root-container">
+        <div class="cards-conatiner">
+            <img src="images/rhombus.png" alt="">
+            <div class="text-container">
+                <h1>Rhombus</h1>
+                <p>Area(A) = b * h</p>
+                <div class="cal-style">
+                    <input type="text" id="valueOnePar"><br>
+                    <input type="text" id="valueTwoPar"><br>
+                </div>
+                <button class="btn-style" type="submit" onclick="areaFunctionRho()">Submit</button>
+            </div>
+        </div>
+
+        <div class="cards-conatiner">
+            <img src="images/pentagon.png" alt="">
+            <div class="text-container">
+                <h1>Pentagon</h1>
+                <p>Area(A) = b * h</p>
+                <div class="cal-style">
+                    <input type="text" id="valueOnePar"><br>
+                    <input type="text" id="valueTwoPar"><br>
+                </div>
+                <button class="btn-style" type="submit" onclick="areaFunctionPen()">Submit</button>
+            </div>
+        </div>
+
+        <div class="cards-conatiner">
+            <img src="images/ellipse.png" alt="">
+            <div class="text-container">
+                <h1>Ellipse</h1>
+                <p>Area(A) = b * h</p>
+                <div class="cal-style">
+                    <input type="text" id="valueOnePar"><br>
+                    <input type="text" id="valueTwoPar"><br>
+                </div>
+                <button class="btn-style" type="submit" onclick="areaFunctionEll()">Submit</button>
+            </div>
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
